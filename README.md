@@ -1,5 +1,8 @@
 # Client-Server-File-Sharing-Code
 
+## Contributors
+
+![Contributors](https://contrib.rocks/image?repo=Makram-El-Hadi/Client-Server-File-Sharing-Code)
 
 1. Copy `server.py` and `client.py` into your working directory.
 2. Modify `BASE_DIR` in `server.py` to point to a valid folder for file storage.
