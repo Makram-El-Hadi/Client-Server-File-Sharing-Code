@@ -8,7 +8,7 @@ import random
 import os
 
 
-# Change BASE_DIR to custom path
+# Change BASE_ DIR to custom path
 BASE_DIR = Path(r"")
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # creating stream socket
 
