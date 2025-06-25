@@ -5,9 +5,9 @@
 2. Modify `BASE_DIR` in `server.py` to point to a valid folder for file storage.
 3. On the client machine, decide where logs should be stored (any writeable directory).
 
-Running the Server
+Running the Server 
 ------------------
-1. Open a terminal in the server directory.
+1. Open a terminal in the server  directory.
 2. Run: `python server.py`
 3. The server will:
    - Initialize `files.db` with `users`, `files_info`, and `logs` tables.
