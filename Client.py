@@ -11,7 +11,7 @@ from tkinter import*
 # Define all functions needed at the start of the code
 #Written by:Joseph Chahine
 def log_event(result, file_name, event):
-    conn = sqlite3.connect(str(log_file_path / "Logs.db"))  # Connect to the Logs.db database stored in the user-specified directory
+    conn = sqlite3.connect(str(log_file_path / "Logs.db"))  # Connect   t o the Logs.db database stored in the user-specified directory
     cursor = conn.cursor()  # Create a cursor object to interact with the database
     local_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Get the current time in a readable format (for timestamping the log)
 
