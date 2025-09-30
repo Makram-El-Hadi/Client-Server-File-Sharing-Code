@@ -9,7 +9,7 @@ from tkinter import*
 
 
 # Define all functions needed at the start of the code
-#Written by:Joseph Chahine
+ #Written by:Joseph Chahine
 def log_event(result, file_name, event):
     conn = sqlite3.connect(str(log_file_path / "Logs.db"))  # Connect   t o the Logs.db database stored in the user-specified directory
     cursor = conn.cursor()  # Create a cursor object to interact with the database
@@ -518,3 +518,4 @@ if message.upper() =="LOGIN" or message.upper()=="CREATE":
 else:
     log_event("Invalid choice","None","Authentication")
 client.close()
+
